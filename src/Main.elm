@@ -704,9 +704,9 @@ meanAllHeight =
 animalAllClassList =
             getAllClassList animalFiltered
 listAllAnimalsAboveAverage =
-            List.filter aboveCommonMean animalCommonClassList
+            List.filter aboveAllMean animalAllClassList
 listAllAnimalsBelowAverage =
-            List.filter belowCommonMean animalCommonClassList
+            List.filter belowAllMean animalAllClassList
 --Common
 
 aboveCommonMean animal =
